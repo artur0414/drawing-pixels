@@ -1,7 +1,7 @@
   <h1 align="center">Drawing Pixels App</h1>
 
   <p align="center">
-    <img src="" alt="Project" width="300">
+    <img src="./src/assets/app.jpg" alt="Project" width="300">
   </p>
 
   <h2>Description</h2>

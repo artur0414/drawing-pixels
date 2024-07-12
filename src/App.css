@@ -1,0 +1,59 @@
+/* Estilos generales para la aplicación de dibujo */
+.draw-app {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+/* Contenedor principal para los cuadros de color */
+.container {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilos para cada cuadro de color */
+.square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  height: 16px;
+  width: 16px;
+  margin: 0;
+  transition: 0.3s ease;
+}
+
+/* Contenedor para seleccionar el color */
+.color-select {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Estilos para el título del selector de color */
+h2 {
+  color: #fff;
+}
+
+/* Estilos para el input de color */
+input {
+  border: none;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
